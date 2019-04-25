@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#div1{
+    background-image: url("img/bulb1.png");
+    background-size: cover;
+    padding: 0px;
+
+}
+
+#div2{
+    background-color: white;
+    opacity: 0.9;
+    padding: 40px;
+    margin-top: 120px;
+      border-style: dashed;
+    border-color: red;
+  }
+
+#div3{
+    background-color: gray;
+    opacity: 1.0;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-style: dashed;
+    border-color: gold;
+     }
+
+#connect{
+    margin-top: 250px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#connect:hover{
+    cursor: pointer;
+    color: red;
+}
+
+h1{
+    color: white;
+    margin-top: 120px;
+    font-size: 40px;
+   
+}
+
+#bulb1,#bulb2,#bulb3,#fans1,#fans2{
+    height: 200px;
+    width: 150px;
+    
+}
+
+#obj1,#obj2,#obj3{
+    height: 250px;
+    width: 220px;
+    margin: 20px;   
+    opacity: 0.7;
+
+}
+
+#obj2:hover{
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    
+}
+#obj3:hover{
+     background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+#obj1:hover{
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+#lights{
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    height: 900px;
+    float: left;
+}
+#fans{
+    text-align: center;
+
+    padding: 90px;
+    width: 500px;
+    height: 900px;
+    float: right;
+}
